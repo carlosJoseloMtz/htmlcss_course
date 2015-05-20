@@ -1,0 +1,33 @@
+
+.title {
+
+		background-color: black;
+		color: white;
+}
+.logo {
+		background-color: red;
+} 
+.searcher{
+		background-color: yellow;
+}
+
+.profile {
+		background-color: green;
+}
+
+.themes {
+		 list-style-type: square;
+		 background-color: blue;
+}
+
+.information {
+		background-color: 7F1909;
+}
+
+.developments {
+		background-color: 0A0026;
+}
+
+.links {
+		background-color: 043602;
+}

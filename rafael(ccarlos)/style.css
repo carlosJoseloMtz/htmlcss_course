@@ -1,33 +1,66 @@
 
 .title {
+	display: block;
+	float: left;
+	width: 11%;
+	color: white;
+	height: 21%;
+	margin: 0;
+	padding: 0;
+		
+		}
 
-		background-color: black;
-		color: white;
-}
 .logo {
-		background-color: red;
+	
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 35%;
+	height: 36%;
+
+	
+
+		
 } 
 .searcher{
+	float: left;
+	width: 35%;
+	height: 36%;
+
 		background-color: yellow;
 }
 
 .profile {
+	float: left;
+	width: 15%;
+	height: 36%;
+
 		background-color: green;
 }
 
 .themes {
+	float: left;
+	width: 11%;
+		margin-top: 0;
 		 list-style-type: square;
 		 background-color: blue;
+
 }
 
 .information {
+	float: left;
+	width: 15%;
 		background-color: 7F1909;
 }
 
 .developments {
+	float: left;
+	width: 15%;
 		background-color: 0A0026;
 }
 
 .links {
+	float: left;
+	width: 15%;
 		background-color: 043602;
 }

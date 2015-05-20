@@ -1,0 +1,44 @@
+.logo{
+	background-image:url(caracol.JPG);
+	float:left;
+	width: 20%;
+	height:33%; 
+	 }
+
+.title{
+	background-color:362B25;
+	color:white;
+	float:left;
+	width: 60%;
+	height:33%;  
+		}
+
+.logo2{
+	background-image:url(caracol2.JPG);
+	float:left;
+	width: 20%;
+	height:33%; 
+	  }
+
+.mleft{
+	background-color:orange; 
+	color:black; 
+	float:left;
+	width: 50%;
+	height:60%; 
+	 }
+
+.options{
+	background-color:red; 
+	color:black; 
+	float:left;
+	width: 100%;
+         }	
+
+.mright{
+	background-color:white; 
+	color:green; 
+	float:left;
+	width: 50%;
+	height:60%; 
+     }

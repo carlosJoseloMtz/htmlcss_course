@@ -3,14 +3,23 @@
 	float:left;
 	width: 20%;
 	height:33%; 
+	border-radius: 30px;
 	 }
 
 .title{
-	background-color:362B25;
-	color:white;
+	background-image: url(caracoltex.JPG);
+	background-repeat: no-repeat;
+	background-size: 20em 10em;
+	color:ACCA19;
 	float:left;
 	width: 60%;
-	height:33%;  
+	height:33%; 
+	font-size: 50px; 
+	font-family: "Homer Simpson", cursive; 
+	border-radius: 30px;
+	text-align: center;
+	line-height: 200px;
+	text-transform: uppercase;	
 		}
 
 .logo2{
@@ -18,27 +27,56 @@
 	float:left;
 	width: 20%;
 	height:33%; 
+	border-radius: 30px;
 	  }
 
 .mleft{
 	background-color:orange; 
 	color:black; 
 	float:left;
-	width: 50%;
+	width: 33%;
 	height:60%; 
+	text-align: center;
+	font-size: 20px; 
 	 }
 
 .options{
-	background-color:red; 
-	color:black; 
+	background-image: url(tierra.JPG); 
+	background-repeat: no-repeat;
+	background-size: 38em 10em;
+	color:white; 
 	float:left;
 	width: 100%;
-         }	
+	border-radius: 30px;
+	font-size: 45px; 
+         }
+
+.mcenter{
+		background-color:black; 
+		color:black; 
+		float:left;
+		width: 34%;
+		height:60%; 
+		text-align: center;
+		font-size: 20px; 
+		}
 
 .mright{
 	background-color:white; 
 	color:green; 
 	float:left;
-	width: 50%;
+	width: 33%;
 	height:60%; 
+	font-size: 30px; 
      }
+
+#opt li{
+	 	float:left;
+     	margin-right:20px;
+		margin-bottom:10px;
+   		padding:5px;
+    	border-radius: 15%;
+    	text-align:center;
+       }
+
+		

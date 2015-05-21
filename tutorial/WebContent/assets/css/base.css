@@ -1,0 +1,75 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.page {
+	background-color: red;
+}
+
+.content {
+	margin: 20px;
+	margin-top: 10px;
+}
+
+.container {
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.left-menu {
+	width: 30%;
+	background-color: #bababa;
+	padding: 10px 20px;
+}
+
+.posts-area {
+	width: 70%;
+	padding-left: 20px;
+}
+
+
+/*
+*	footer definition
+*/
+footer {
+	background-color: #DDDDDD;
+	width: 100%;
+}
+
+footer img.map-location {
+	width: 400px;
+	height: 250px;
+}
+
+footer .row-container .column-big {
+}
+
+.row-container {
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.row-container .column-small {
+	width: 40%;
+}
+
+footer .row-container .column-big {
+	width: 60%;
+	text-align: right;
+}
+
+
+p.justify {
+	text-align: justify;
+}
+
+
+

@@ -8,24 +8,63 @@ body {
 }
 
 .page {
-	background-color: red;
+	background-color: #FFF8DC;
 }
 
-.content {
-	margin: 20px;
-	margin-top: 10px;
+.banner {
+	background-color: #F2C91F;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	background-image: url("../images/transparent_background_for_banner.png");
+	background-repeat: no-repeat;
+}
+
+.banner h1 {
+	margin-top: 0;
 }
 
 .container {
 	display: flex;
 	width: 95%;
 	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+/*
+*	HINT:
+* we can set several components with the same definition by separating components using ","
+*/
+.container .left-menu,
+.container .posts-area {
+    border-radius: 25px;
+}
+
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 2px 2px gray;
 }
 
 .left-menu {
 	width: 30%;
-	background-color: #bababa;
+	background-color: #FFEB98;
 	padding: 10px 20px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.left-menu li {
+	list-style: none;
+}
+
+.collaborator-list {
+	cursor: default;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 .posts-area {
@@ -33,21 +72,58 @@ body {
 	padding-left: 20px;
 }
 
+/*
+*	post definition			:: begins
+*/
+
+.post {
+	border-bottom: solid 1px gray;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	font-size: large;
+	font-weight: bold;
+}
+
+.post .meta {
+	font-style: italic;
+	font-size: small;
+}
+
+.post .continue-reading {
+	margin-bottom: 10px;
+}
+
+/*
+*	post definition			:: ends
+*/
+
+.continue-reading {
+	background-color: white;
+    border-radius: 5px;
+    border: solid 1px gray;
+    padding: 5px 10px;
+}
+
+.continue-reading:HOVER {
+	font-size: 1.1rem;
+}
+
 
 /*
 *	footer definition
 */
 footer {
-	background-color: #DDDDDD;
+	color: white;
 	width: 100%;
+	font-weight: bold;
+	background-color: #CBB349;
 }
 
 footer img.map-location {
 	width: 400px;
 	height: 250px;
-}
-
-footer .row-container .column-big {
 }
 
 .row-container {
@@ -71,5 +147,21 @@ p.justify {
 	text-align: justify;
 }
 
+
+footer li {
+	list-style: none;
+}
+
+
+/*
+* change full text of these to their corresponding codes
+*/
+.fb-link {
+	color: rgb(59, 89, 152);
+}
+
+.gp-link {
+	color: rgb(221, 75, 57);
+}
 
 

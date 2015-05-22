@@ -13,6 +13,9 @@
 	<!-- include a cool font from google's API -->
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 	
+	<!-- library with tons of beautiful font styles and icons -->
+	<!-- for further information visit: http://fortawesome.github.io/Font-Awesome/get-started/ -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<!-- fix stupid IE's lack of html5 implementation -->
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
@@ -26,7 +29,12 @@
 
 	<!-- some banner sould go here, but I don't think they use that kind of things anymore -->
 	<div class="banner">
-		TODO: add a banner or customize this section at least
+		<h1>Welcome to [whatever the project name is]</h1>
+		<p>
+			This looks basically like any amateur webpage made in a couple of hours but,
+			as an excuse (not good though) I didn't have enough time to catch up with
+			this.
+		</p>
 	</div>
 	
 	<!-- right and left sections container -->
@@ -59,9 +67,52 @@
 			</ul>
 		</div>
 		
-		<!-- main content section -->
+		<!-- main post section -->
 		<div class="posts-area">
-			TODO: implement a post container with sections
+			<!-- first post shown -->
+			<div class="post">
+				<div class="title">
+					Some cool post goes here
+				</div>
+				<div class="meta">
+					<div class="author">
+						<i class="fa fa-user"></i>&nbsp;Rafael Donatelo
+					</div>
+					<div class="date">
+						10/21/2015
+					</div>
+				</div>
+				<div class="short-story">
+					<p>This should be a short part of the story posted on the full document,
+					this may also contain some html code from time to time, but it's more common that we
+					use some other editor when we capture the publication.</p>
+					<br/>
+					<p>This text has no divs or extra formatting, because it shouldn't by its own nature,
+					but of course it can contain it as well...</p>
+				</div>
+				<a href="#" class="continue-reading">Continue reading >></a>
+			</div>
+			
+			<!-- second post shown -->
+			<div class="post">
+				<div class="title">
+					this is a hello world (soooo cliche)
+				</div>
+				<div class="meta">
+					<div class="author">
+						<i class="fa fa-user"></i>&nbsp;Some bot created this
+					</div>
+					<div class="date">
+						01/01/2015
+					</div>
+				</div>
+				<div class="short-story">
+					<p>Hello everyone welcome to the blog, you can find.. stuff.. here!</p>
+					<br/>
+					<p>testing testing testing</p>
+				</div>
+				<a href="#" class="continue-reading">Continue reading >></a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -75,9 +126,11 @@
 			<ul class="social-network-links">
 				<li class="fb-link">
 					Facebook
+					<i class="fa fa-thumbs-up"></i>
 				</li>
 				<li class="gp-link">
 					Google+
+					<i class="fa fa-plus"></i>
 				</li>
 			</ul>
 			<p class="justify">You can also donate to us so we can keep sharing experiences and stuff with you,

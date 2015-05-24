@@ -59,12 +59,13 @@
 			</div>
 			<ul>
 				<li>
-					<a href="#">Some cool page</a>
+					<a href="javascript:void(0)">Some cool page</a>
 				</li>
 				<li>
-					<a href="#">Maybe a blog or something</a>
+					<a href="javascript:void(0)" onclick="imprimirMensajeEnConsola()">Maybe a blog or something</a>
 				</li>
 			</ul>
+			<img src="" id="image-para-cambiar" />
 		</div>
 		
 		<!-- main post section -->
@@ -141,9 +142,18 @@
 		<div class="column-big">
 			<!-- google maps view -->
 			<img class="map-location" src="../assets/images/google_maps.png" />
+			
 		</div>
 	</div>
 </footer>
 </div>
+
+<input id="email-field" type="text" placeholder="email@example.com" onfocusout="validarCorreo()" />
+
+
+<br/><br/><br/><br/><br/><br/>
+
+<!-- cargar los js al final para dar la impresion de que la página carga rápido -->
+<script src="../assets/js/first_example.js"></script>
 </body>
 </html>

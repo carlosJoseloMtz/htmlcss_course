@@ -1,5 +1,5 @@
 .logo{
-	background-image:url(caracol.JPG);
+	background-image:url(caracol.jpg);
 	float:left;
 	width: 22%;
 	height:33%; 
@@ -9,7 +9,7 @@
 	 }
 
 .title{
-	background-image: url(caracoltex.JPG);
+	background-image: url(caracoltex.jpg);
 	background-repeat: no-repeat;
 	background-size: 20em 10em;
 	color:ACCA19;
@@ -25,7 +25,7 @@
 		}
 
 .logo2{
-	background-image:url(caracol2.JPG);
+	background-image:url(caracol2.jpg);
 	float:left;
 	width: 22%;
 	height:33%; 
@@ -46,7 +46,7 @@
 	 }
 
 .options{
-	background-image: url(tierra.JPG); 
+	background-image: url(tierra.jpg); 
 	background-repeat: no-repeat;
 	background-size: 38em 10em; 
 	float:left;
@@ -56,7 +56,7 @@
          }
 
 .mcenter{
-		background-image:url(comida.JPG);
+		background-image:url(comida.jpg);
 		background-repeat: no-repeat; 
 		background-size: 40em 25em;
 		color:white; 
@@ -168,11 +168,32 @@ vertical-align: text-bottom;
 		}
 
 #boton2{
-background-color: 431C05;
-border-radius: 8px;
-color: white;
-font-family: ‘Pacifico’, Arial, sans-serif;
-font-size: 20px;
-line-height: 1;
-padding: 10px 20px;
-vertical-align: text-bottom;
+	background-color: 431C05;
+	border-radius: 8px;
+	color: white;
+	font-family: ‘Pacifico’, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1;
+	padding: 10px 20px;
+	vertical-align: text-bottom;
+
+}
+
+
+/*
+* css breakpoint
+*/
+@media(max-width: 568px) {
+	body {
+		background-color: red;
+	}
+
+	.title {
+	}
+
+	.logo, .title, .logo2 {
+		float: none;
+		width: 100%;
+	}
+}
+

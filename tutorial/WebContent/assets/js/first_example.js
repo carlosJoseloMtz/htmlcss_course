@@ -1,3 +1,12 @@
+// blog será usado en todos lados
+// como variable que contiene todos los componentes
+var BLOG = {};
+
+
+// contexto global del blog
+BLOG.global = {
+		resourcePath: "file:///home/carlos/personalprojects/htmlcss_course/tutorial/WebContent/assets"
+}
 
 
 function imprimirMensajeEnConsola() {

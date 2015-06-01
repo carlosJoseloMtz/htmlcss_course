@@ -1,0 +1,109 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.title {
+	display: block;
+	float: left;
+	width: 11%;
+	color: white;
+	height: 8em;
+	margin:0 ;padding: 0;
+		
+		}
+
+.logo {
+	display: block;
+	float: left;
+	width: 39%;
+	height: 8em;
+	margin:0 ;padding: 0;
+}
+.searcher{
+	float: left ;
+	width: 35%;
+	height: 8em;
+	margin:0 ;padding: 0;	
+}
+#img{
+	
+	position: relative;
+  top: 86px;
+  left: 150px;
+}
+.profile {
+	display: flex;
+	float: left ;
+	width: 15%;
+	height: 8em;
+	margin:0 ;padding: 0;
+
+
+}
+
+.themes {
+	font-family: fantasy; 
+	background-image: url(../images/textura.jpg);
+	float: left ;
+	width: 9%;
+	height: 34.5em;
+	list-style-type: circle;
+	text-align: center;
+		 
+}
+
+.information {
+	background-image: url(../images/textura.jpg);
+	font-family:cursive;
+	font-size: 18;
+	overflow: scroll;
+	float: left;
+	width: 71%;
+	height: 34.5em;
+		
+}
+
+.developments {
+	background-image: url(../images/textura.jpg);
+	font-family:cursive;
+	overflow: scroll;
+	word-wrap: break-word;
+	float: left ;
+	width: 20%;
+	height: 31em;
+		
+}
+
+.links{
+	float: left;
+	width: 20%;
+	height: 2.9em;
+		
+}
+#t1:hover{
+	color: #fff;
+	cursor: pointer;
+}
+#t2:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+#t3:hover{
+	color: #fff;
+	cursor: pointer;
+}
+#t4:hover{
+	color: #fff;
+	cursor: pointer;
+}
+#t5:hover{color: #fff;
+	cursor: pointer;
+}
+footer {
+	float:left;
+	width: 100%;
+	background-color: olive;
+	text-align: center;

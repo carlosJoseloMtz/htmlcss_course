@@ -165,3 +165,10 @@ footer li {
 }
 
 
+/*
+* seccion para colaboradores
+*/
+ul.collaborator-list li:HOVER {
+	background-color: red;
+	cursor: pointer;
+}

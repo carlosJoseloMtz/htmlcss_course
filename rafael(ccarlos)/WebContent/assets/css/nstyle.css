@@ -1,0 +1,15 @@
+.azul-verde{
+	color:#1F6E55;
+}
+.centrar{
+	text-align: center;
+}
+.centrar-top{
+	margin-top: 100px;
+}
+.nletra{
+	font-family: 'Indie Flower', cursive;
+}
+.retraso{
+	animation-delay:1s;
+}

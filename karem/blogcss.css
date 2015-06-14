@@ -1,0 +1,199 @@
+.logo{
+	background-image:url(caracol.jpg);
+	float:left;
+	width: 22%;
+	height:33%; 
+	border-radius: 30px;
+	background-repeat: no-repeat;
+	background-size: 20em 16em;
+	 }
+
+.title{
+	background-image: url(caracoltex.jpg);
+	background-repeat: no-repeat;
+	background-size: 20em 10em;
+	color:ACCA19;
+	float:left;
+	width: 56%;
+	height:33%; 
+	font-size: 50px; 
+	font-family: "Homer Simpson", cursive; 
+	border-radius: 30px;
+	text-align: center;
+	line-height: 200px;
+	text-transform: uppercase;	
+		}
+
+.logo2{
+	background-image:url(caracol2.jpg);
+	float:left;
+	width: 22%;
+	height:33%; 
+	border-radius: 30px;
+	background-repeat: no-repeat;
+	background-size: 20em 20em;
+	  }
+
+.mleft{
+	background-color:orange; 
+	color:black; 
+	float:left;
+	width: 40%;
+	height:60%; 
+	text-align: left;
+	font-size: 20px; 
+	border-radius: 30px;
+	 }
+
+.options{
+	background-image: url(tierra.jpg); 
+	background-repeat: no-repeat;
+	background-size: 38em 10em; 
+	float:left;
+	width: 100%;
+	border-radius: 30px;
+	font-size: 45px; 
+         }
+
+.mcenter{
+		background-image:url(comida.jpg);
+		background-repeat: no-repeat; 
+		background-size: 40em 25em;
+		color:white; 
+		float:left;
+		width: 40%;
+		height:60%; 
+		border-radius: 30px;
+		text-align:center;
+		font-size:20px;
+		font-family: fantasy;
+		}
+
+.mright{
+	
+		background-color: hsla(20,50%,50%,2); 
+		color:white; 
+		float:left;
+		width: 20%;
+		height:60%; 
+		text-align: center;
+		font-size: 20px; 
+		border-radius: 30px;
+
+
+     }
+
+#opt li{
+	 	float:left;
+     	margin-right:20px;
+		margin-bottom:10px;
+   		padding:5px;
+    	border-radius: 15%;
+    	text-align:center;
+       }
+
+#c{
+   color:ACAF13; 
+	}
+
+#r{
+	color:D26E1D; 
+	}
+
+#d{
+	color:18B43F; 
+	}
+
+#ev{
+	color:D5B176; 
+	}
+
+#menu{
+	font-family: "Homer Simpson", cursive; 
+    font-size: 35px;
+	color:5F1423;
+}
+
+#boton{
+background-color: 46071D;
+border-radius: 8px;
+color: white;
+font-family: ‘Pacifico’, Arial, sans-serif;
+font-size: 20px;
+line-height: 1;
+padding: 10px 20px;
+vertical-align: text-bottom;
+}
+
+#c:hover{
+	color: CA0CCA;
+	cursor: pointer;
+}
+#r:hover{
+	color: CA0CCA;
+	cursor: pointer;
+}
+#d:hover{
+	color: CA0CCA;
+	cursor: pointer;
+}
+#ev:hover{
+	color: CA0CCA;
+	cursor: pointer;
+}
+
+#usos{
+	font-size: 40px; 
+	text-align:center;
+      }		
+
+#ga:hover{
+		color: 09F811;
+		cursor: pointer;
+		}
+
+#cu:hover{
+		color: 09F811;
+		cursor: pointer;
+		}
+
+#ro:hover{
+		color: 09F811;
+		cursor: pointer;
+		}
+
+#cm:hover{
+		color: 09F811;
+		cursor: pointer;
+		}
+
+#boton2{
+	background-color: 431C05;
+	border-radius: 8px;
+	color: white;
+	font-family: ‘Pacifico’, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1;
+	padding: 10px 20px;
+	vertical-align: text-bottom;
+
+}
+
+
+/*
+* css breakpoint
+*/
+@media(max-width: 568px) {
+	body {
+		background-color: red;
+	}
+
+	.title {
+	}
+
+	.logo, .title, .logo2 {
+		float: none;
+		width: 100%;
+	}
+}
+

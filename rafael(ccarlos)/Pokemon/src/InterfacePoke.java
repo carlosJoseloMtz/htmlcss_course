@@ -1,6 +1,6 @@
 
 public interface InterfacePoke {
 	
-	int Pokemon (int IdPoke);
+	String Pokemon (int IdPoke);
 	
 }

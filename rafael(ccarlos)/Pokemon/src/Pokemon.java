@@ -6,6 +6,8 @@ public class Pokemon {
 	private int salud;
 	private String tipo;
 	private String nombre;
+	private int nivel;
+	
 	
 	
 	

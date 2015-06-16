@@ -1,5 +1,6 @@
 package pokemon;
 
+
 public interface InterfacePoke {
 
 	void pelear(Pokemon pokemon);

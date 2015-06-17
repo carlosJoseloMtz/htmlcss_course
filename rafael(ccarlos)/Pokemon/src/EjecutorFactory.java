@@ -5,9 +5,9 @@ public class EjecutorFactory {
 	public static void main(String[]argument){
 	Pokemon pokemon=new Pokemon();	
 	pokemon.setSalud(80);
-	pokemon.setAtaque(1);
+	pokemon.setAtaque(80);
 	pokemon.setNivel(1);
-	pokemon.setTipo("agua");
+	pokemon.setTipo("fuego");
 	pokemon.setNombre("sqare");
 	pokemon.setId(1);
 	

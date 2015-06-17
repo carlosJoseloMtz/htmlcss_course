@@ -84,7 +84,7 @@ public class TipoAgua implements InterfacePoke{
 			turno=2;
 
 			if(vidaenemigo<=0 ){
-				System.out.println("Ganaste la batalla Pokemon  :( ");	
+				System.out.println("Ganaste la batalla Pokemon  !! ");	
 				adios=false;
 			}
 		}

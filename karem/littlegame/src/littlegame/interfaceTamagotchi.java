@@ -1,5 +1,11 @@
 package littlegame;
 
 public interface interfaceTamagotchi {
-int personaje (int idmascota);
+
+	void jugar(mascota mascota);
+	
+	void alimentarr(mascota mascota);
+	
+	void limpiar(mascota mascota);
+	
 }

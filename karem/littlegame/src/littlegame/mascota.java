@@ -1,40 +1,55 @@
 package littlegame;
 
 public class mascota {
-private int id;
-private String nombre;
-private int entretenimiento;
-private int hambre;
-private int limpio;
-
+	private String nombre;
+	private String color ;
+	private String especie;
+	private int aburrido;
+	private int hambriento ;
+	private int sucio;
+    private int id;
 public int getId() {
 	return id;
 }
 public void setId(int id) {
 	this.id = id;
 }
-public int getEntretenimiento() {
-	return entretenimiento;
+public String getNombre() {
+	return nombre;
 }
-public void setEntretenimiento(int entretenimiento) {
-	this.entretenimiento = entretenimiento;
+public int getAburrido() {
+	return aburrido;
 }
-public int getHambre() {
-	return hambre;
+public void setAburrido(int aburrido) {
+	this.aburrido = aburrido;
 }
-public void setHambre(int hambre) {
-	this.hambre = hambre;
+public int getHambriento() {
+	return hambriento;
 }
-public int getLimpio() {
-		return limpio;
+public void setHambriento(int hambriento) {
+	this.hambriento = hambriento;
 }
-	public void setLimpio(int limpio) {
-		this.limpio = limpio;
+public int getSucio() {
+	return sucio;
 }
-	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-}	
+public void setSucio(int sucio) {
+	this.sucio = sucio;
+}
+public void setNombre(String nombre) {
+	this.nombre = nombre;
+}
+public String getColor() {
+	return color;
+}
+public void setColor(String color) {
+	this.color = color;
+}
+public String getEspecie() {
+	return especie;
+}
+public void setEspecie(String especie) {
+	this.especie = especie;
+}
+
+
 }

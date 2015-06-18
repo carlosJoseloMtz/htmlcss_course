@@ -38,10 +38,10 @@ public class dinosaurio implements interfaceTamagotchi {
 			System.out.println("dino se comió a tu mamá :( ");
 			System.out.println("ñam ñam ñam");
 			mascota.setHambriento(mascota.getHambriento()+25);
-		System.out.println("dino ahora tiene "+mascota.getHambriento()+" puntos de hambre");
-		mascota.setAburrido(mascota.getAburrido()-25);
-		mascota.setSucio(mascota.getSucio()-25);
-	}
+			System.out.println("dino ahora tiene "+mascota.getHambriento()+" puntos de hambre");
+			mascota.setAburrido(mascota.getAburrido()-25);
+			mascota.setSucio(mascota.getSucio()-25);
+		}
 	}
 
 	@Override
@@ -56,10 +56,10 @@ public class dinosaurio implements interfaceTamagotchi {
 			System.out.println("dino esta sucio!! su nivel de limpieza es de "+mascota.getSucio()+" limpialo para aumentar su nivel");
 			System.out.println("dino se baña mientras barres su cuevita :) ");
 			mascota.setSucio(mascota.getSucio()+25);
-		System.out.println("dino ahora tiene "+mascota.getSucio()+" puntos de limpieza");
-		mascota.setHambriento(mascota.getHambriento()-25);
-		mascota.setAburrido(mascota.getAburrido()-25);
-	}
+			System.out.println("dino ahora tiene "+mascota.getSucio()+" puntos de limpieza");
+			mascota.setHambriento(mascota.getHambriento()-25);
+			mascota.setAburrido(mascota.getAburrido()-25);
+		}
 		
 	}
 
